@@ -6,7 +6,12 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+@media (max-width: 480px) {
+            body {
+                background-color: white;
+                background-image: none;
+            }
+        }
 header {
     background-color: #222222;
     padding: 20px;

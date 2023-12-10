@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/cover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #222222;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid #333;
+}
+
+main {
+    margin-top: 100px;
+}
+
+label {
+    font-weight: bolder;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, button {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #222222;
+}
+
+#result {
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #4CAF50;
+}

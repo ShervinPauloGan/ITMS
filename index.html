@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Computations</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Math Computations</h1>
+    </header>
+
+    <main>
+        <center>
+        <label for="computationType">Select computation type:</label>
+        <select id="computationType" onchange="updateInputVisibility()">
+            <option value="permutation">Permutation</option>
+            <option value="combination">Combination</option>
+            <option value="fibonacci">Fibonacci</option>
+            <option value="tribonacci">Tribonacci</option>
+        </select>
+        <br><br><br>
+
+        <label for="r" id="rLabel" style="display: none;">Enter another number (r): </label>
+        <input type="number" id="r" min="0" style="display: none;">
+
+        <label for="n">Enter a number (n): </label>
+        <input type="number" id="n" min="0">
+
+        <button onclick="compute()">Compute</button>
+
+        <p id="result"></p>
+        </center>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Math Computations</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
